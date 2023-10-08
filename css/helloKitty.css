@@ -1,0 +1,59 @@
+body {
+    background-color: #2196F3; /* Default background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease; /* Smooth color transition */
+}
+
+.container {
+    text-align: center;
+    padding: 15%;
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.quote {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.author {
+    color: white;
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0;
+    color: white;
+}
+
+footer a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link color */
+    margin: 0 10px; /* Add margin to separate links */
+    border-right: 1px solid white; /* Add a vertical border between links */
+    padding-right: 10px; /* Add padding to the right of each link */
+}
+
+footer a:last-child {
+    border: none; /* Remove border from the last link */
+    padding-right: 0; /* Remove padding from the last link */
+}

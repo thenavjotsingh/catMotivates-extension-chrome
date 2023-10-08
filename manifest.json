@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "kitty to motivate you",
+    "version": "1.0",
+    "description": "I am there to motivate | Keey trying ",
+    "permissions": ["tabs"],
+   
+    "action": {
+      "default_icon": {
+        "16": "images/cat1.png",
+        "48": "images/cat2.png",
+        "128": "images/cat3.png"
+      }
+    },
+    "chrome_url_overrides" : {
+        "newtab" : "helloKitty.html"
+    },
+    "icons": {
+      "16": "images/cat1.png",
+      "48": "images/cat2.png",
+      "128": "images/cat3.png"
+    }
+  }
+  
